@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+
+  <!--  <group ns="ur5hand/">-->
+        <param name="robot_description"
+            command="$(find xacro)/xacro.py
+            $(find ur_description)/urdf/ur5_with_hand.urdf"/>
+        <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+                 args="-urdf -param robot_description -model robot -x 0 -y 1.00 -z 0.95"/>
+        <!--<rosparam file="$(find ur_gazebo)/controller/controllers.yaml" command="load"/>-->
+<!--        <node name="joint_controller_spawner" pkg="controller_manager" type="controller_manager"
+              args="spawn shoulder_pan_position_controller finger1_position_controller joint_state_controller"
+              respawn="false" output="screen"/>-->
+        <rosparam file="$(find ur_gazebo)/controller/controllers.yaml" command="load"/>
+        <node name="joint_controller_spawner" pkg="controller_manager" type="controller_manager" respawn="false"
+                              output="screen" args="spawn shoulder_pan_position_controller finger1_position_controller joint_state_controller" />
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+        <!--<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />-->
+        <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+            <param name="publish_frequency" type="double" value="50.0" />
+            <param name="tf_prefix" type="string" value="" />
+        </node>
+
+<!--    </group>-->
+</launch>

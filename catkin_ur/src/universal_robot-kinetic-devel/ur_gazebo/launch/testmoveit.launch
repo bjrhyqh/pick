@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+   <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+  <!-- Load the URDF into the ROS Parameter Server -->
+  <param name="robot_description"
+         command="$(find xacro)/xacro.py '$(find ur_description)/urdf/ur5_with_hand.urdf'" />
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+                  args="-urdf -param robot_description -model robot -x 0 -y 1.00 -z 0.95"/>
+  <rosparam file="$(find ur_gazebo)/controller/joint_state_controller.yaml"
+  command="load"/>
+  <node name="joint_controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+   args="joint_state_controller"/>
+   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+       <param name="publish_frequency" type="double" value="50.0" />
+       <param name="tf_prefix" type="string" value="" />
+   </node>
+  <rosparam file="$(find ur_gazebo)/controller/trajectory_control.yaml" command="load"/>
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+  args="manipulator_controller gripper_controller"/>
+  <include file="$(find ur5hand_moveit_config)/launch/ur5_moveit_planning_execution.launch"/>
+
+</launch>
+

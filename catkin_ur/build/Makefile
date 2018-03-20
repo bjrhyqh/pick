@@ -1986,6 +1986,19 @@ octomap_msgs_generate_messages_cpp/fast:
 .PHONY : octomap_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named test_custom_node
+
+# Build rule for target.
+test_custom_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_custom_node
+.PHONY : test_custom_node
+
+# fast build rule for target.
+test_custom_node/fast:
+	$(MAKE) -f universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/build.make universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/build
+.PHONY : test_custom_node/fast
+
+#=============================================================================
 # Target rules for targets named ur3_moveit_plugin
 
 # Build rule for target.
@@ -2333,6 +2346,7 @@ help:
 	@echo "... trajectory_msgs_generate_messages_lisp"
 	@echo "... object_recognition_msgs_generate_messages_nodejs"
 	@echo "... octomap_msgs_generate_messages_cpp"
+	@echo "... test_custom_node"
 	@echo "... ur3_moveit_plugin"
 	@echo "... ur10_moveit_plugin"
 	@echo "... ur5_kin"

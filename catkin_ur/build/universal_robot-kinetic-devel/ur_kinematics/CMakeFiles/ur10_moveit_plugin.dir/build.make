@@ -139,6 +139,7 @@ ur10_moveit_plugin_EXTERNAL_OBJECTS =
 /home/cyr/catkin_ur/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/librandom_numbers.so
 /home/cyr/catkin_ur/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libsrdfdom.so
 /home/cyr/catkin_ur/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/cyr/catkin_ur/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/cyr/catkin_ur/devel/lib/libur10_moveit_plugin.so: /opt/ros/kinetic/lib/libclass_loader.so
 /home/cyr/catkin_ur/devel/lib/libur10_moveit_plugin.so: /usr/lib/libPocoFoundation.so
 /home/cyr/catkin_ur/devel/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so

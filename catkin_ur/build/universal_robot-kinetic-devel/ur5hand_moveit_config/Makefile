@@ -89,6 +89,28 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -110,28 +132,6 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -165,6 +165,48 @@ depend:
 	cd /home/cyr/catkin_ur/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/rule:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/rule
+.PHONY : universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/rule
+
+# Convenience name for target.
+test_custom_node: universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/rule
+
+.PHONY : test_custom_node
+
+# fast build rule for target.
+test_custom_node/fast:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/build.make universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/build
+.PHONY : test_custom_node/fast
+
+test_custom.o: test_custom.cpp.o
+
+.PHONY : test_custom.o
+
+# target to build an object file
+test_custom.cpp.o:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/build.make universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/test_custom.cpp.o
+.PHONY : test_custom.cpp.o
+
+test_custom.i: test_custom.cpp.i
+
+.PHONY : test_custom.i
+
+# target to preprocess a source file
+test_custom.cpp.i:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/build.make universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/test_custom.cpp.i
+.PHONY : test_custom.cpp.i
+
+test_custom.s: test_custom.cpp.s
+
+.PHONY : test_custom.s
+
+# target to generate assembly for a file
+test_custom.cpp.s:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/build.make universal_robot-kinetic-devel/ur5hand_moveit_config/CMakeFiles/test_custom_node.dir/test_custom.cpp.s
+.PHONY : test_custom.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,10 +216,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... test_custom_node"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... test"
-	@echo "... edit_cache"
+	@echo "... test_custom.o"
+	@echo "... test_custom.i"
+	@echo "... test_custom.s"
 .PHONY : help
 
 

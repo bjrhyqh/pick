@@ -579,6 +579,30 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/catkin/cmake/platform/lsb.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\" />
       </Unit>
@@ -1347,6 +1371,18 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
       </Unit>
@@ -1366,6 +1402,24 @@
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencpp-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
@@ -1566,6 +1620,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
       </Unit>
@@ -1674,6 +1758,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneus-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneus-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
       </Unit>
@@ -1758,6 +1860,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlisp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlisp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
       </Unit>
@@ -1842,6 +1962,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejs-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejs-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
       </Unit>
@@ -1926,6 +2064,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpy-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpy-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
       </Unit>
@@ -2001,6 +2157,12 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
       </Unit>
@@ -2011,6 +2173,30 @@
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
@@ -2145,6 +2331,30 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
       </Unit>
@@ -2289,23 +2499,17 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
@@ -2360,6 +2564,48 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
@@ -2535,6 +2781,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cmake_modules/cmake/cmake_modules-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cmake_modules\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cmake_modules/cmake/cmake_modulesConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cmake_modules\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cmake_modules/cmake/cmake_modulesConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cmake_modules\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cmake_modules/cmake/cmake_modules-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cmake_modules\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cmake_modules/cmake/cmake_modulesConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cmake_modules\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cmake_modules/cmake/cmake_modulesConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cmake_modules\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/cmake_modules/cmake/cmake_modules-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cmake_modules\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/interactive_markers/cmake/interactive_markersConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\interactive_markers\cmake\" />
       </Unit>
@@ -2559,6 +2823,90 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/interactive_markers/cmake/interactive_markersConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\interactive_markers\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/interactive_markers/cmake/interactive_markersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\interactive_markers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/interactive_markers/cmake/interactive_markersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\interactive_markers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/interactive_markers/cmake/interactive_markersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\interactive_markers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/interactive_markers/cmake/interactive_markersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\interactive_markers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
       </Unit>
@@ -2613,47 +2961,23 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
@@ -2798,6 +3122,42 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
@@ -2907,6 +3267,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf/cmake/tfConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf/cmake/tfConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf/cmake/tf-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf/cmake/tfConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf/cmake/tfConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf/cmake/tf-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf/cmake/tfConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf\cmake\" />
       </Unit>
@@ -3015,6 +3405,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_filters/cmake/message_filtersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_filters/cmake/message_filtersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_filters/cmake/message_filtersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_filters/cmake/message_filtersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/message_filters/cmake/message_filtersConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\" />
       </Unit>
@@ -3117,6 +3537,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\" />
       </Unit>
@@ -3152,6 +3602,24 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib/cmake/actionlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib/cmake/actionlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\" />
@@ -3279,6 +3747,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph/cmake/rosgraphConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph/cmake/rosgraphConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph/cmake/rosgraphConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\" />
       </Unit>
@@ -3314,6 +3812,24 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph/cmake/rosgraphConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph/cmake/rosgraphConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosgraph/cmake/rosgraphConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2/cmake/tf2Config-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2/cmake/tf2Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2/cmake/tf2Config-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2/cmake/tf2Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2/cmake/tf2Config-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2\cmake\" />
@@ -3405,6 +3921,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_msgs/cmake/tf2_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_msgs/cmake/tf2_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_msgs/cmake/tf2_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_msgs/cmake/tf2_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_msgs/cmake/tf2_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_py\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_py\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_py\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_py\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\tf2_py\cmake\" />
       </Unit>
@@ -3494,6 +4040,48 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/visualization_msgs/cmake/visualization_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\visualization_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\visualization_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/visualization_msgs/cmake/visualization_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\visualization_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/visualization_msgs/cmake/visualization_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\visualization_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\visualization_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/visualization_msgs/cmake/visualization_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\visualization_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/visualization_msgs/cmake/visualization_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\visualization_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/pluginlib/cmake/pluginlibConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\" />
@@ -3609,6 +4197,51 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/class_loader/cmake/class_loader-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/class_loader/cmake/class_loaderConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/class_loader/cmake/class_loaderConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/class_loader/cmake/class_loader-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/class_loader/cmake/class_loaderConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/class_loader/cmake/class_loaderConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/class_loader/cmake/class_loader-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslib-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslib-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslib-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
       </Unit>
@@ -3654,14 +4287,17 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslib-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospack/cmake/rospackConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslibConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospack/cmake/rospackConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/roslib/cmake/roslib-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospack/cmake/rospackConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospack/cmake/rospackConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rospack/cmake/rospackConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\" />
@@ -3927,6 +4563,18 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/image_transport/cmake/image_transportConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/image_transport/cmake/image_transportConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/image_transport/cmake/image_transportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/image_transport/cmake/image_transportConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/image_transport/cmake/image_transportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/OpenCV-3.3.1/OpenCVConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\" />
       </Unit>
@@ -3975,6 +4623,30 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_core/cmake/moveit_coreConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_core\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_core/cmake/moveit_coreConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_core\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_core/cmake/moveit_coreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_core\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_core/cmake/moveit_coreConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_core\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_core/cmake/moveit_coreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_core\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_conversions\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_conversions/cmake/eigen_conversionsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_conversions\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_conversions\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_conversions/cmake/eigen_conversionsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_conversions\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_conversions\cmake\" />
       </Unit>
@@ -4023,6 +4695,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_stl_containers/cmake/eigen_stl_containersConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_stl_containers\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_stl_containers/cmake/eigen_stl_containersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_stl_containers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_stl_containers/cmake/eigen_stl_containersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_stl_containers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_stl_containers/cmake/eigen_stl_containersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_stl_containers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/eigen_stl_containers/cmake/eigen_stl_containersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\eigen_stl_containers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometric_shapes\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometric_shapes/cmake/geometric_shapesConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometric_shapes\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometric_shapes\cmake\" />
       </Unit>
@@ -4046,6 +4736,24 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometric_shapes/cmake/geometric_shapesConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometric_shapes\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometric_shapes\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/geometric_shapes/cmake/geometric_shapesConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geometric_shapes\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/random_numbers/cmake/random_numbersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\random_numbers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/random_numbers/cmake/random_numbersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\random_numbers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/random_numbers/cmake/random_numbersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\random_numbers\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/random_numbers/cmake/random_numbersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\random_numbers\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/random_numbers/cmake/random_numbersConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\random_numbers\cmake\" />
@@ -4107,6 +4815,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/shape_msgs/cmake/shape_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\shape_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/shape_msgs/cmake/shape_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\shape_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/shape_msgs/cmake/shape_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\shape_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/shape_msgs/cmake/shape_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\shape_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/shape_msgs/cmake/shape_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\shape_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/shape_msgs/cmake/shape_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\shape_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/shape_msgs/cmake/shape_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\shape_msgs\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/kdl_parser/cmake/kdl_parserConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\kdl_parser\cmake\" />
       </Unit>
@@ -4131,6 +4857,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/kdl_parser/cmake/kdl_parserConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\kdl_parser\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/kdl_parser/cmake/kdl_parserConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\kdl_parser\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/kdl_parser/cmake/kdl_parserConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\kdl_parser\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/kdl_parser/cmake/kdl_parserConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\kdl_parser\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/kdl_parser/cmake/kdl_parserConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\kdl_parser\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
       </Unit>
@@ -4161,11 +4917,17 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole_bridge\cmake\" />
       </Unit>
-      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdf/cmake/urdfConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdf\cmake\" />
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole_bridge\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole_bridge\cmake\" />
@@ -4239,6 +5001,33 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_msgs/cmake/moveit_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_msgs/cmake/moveit_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_msgs/cmake/moveit_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_msgs/cmake/moveit_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_msgs/cmake/moveit_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_msgs/cmake/moveit_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_msgs/cmake/moveit_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
       </Unit>
@@ -4274,6 +5063,33 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/trajectory_msgs/cmake/trajectory_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\trajectory_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/object_recognition_msgs/cmake/object_recognition_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\object_recognition_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/object_recognition_msgs/cmake/object_recognition_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\object_recognition_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/object_recognition_msgs/cmake/object_recognition_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\object_recognition_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/object_recognition_msgs/cmake/object_recognition_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\object_recognition_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/object_recognition_msgs/cmake/object_recognition_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\object_recognition_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/object_recognition_msgs/cmake/object_recognition_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\object_recognition_msgs\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/object_recognition_msgs/cmake/object_recognition_msgsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\object_recognition_msgs\cmake\" />
@@ -4347,6 +5163,36 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/octomap_msgs/cmake/octomap_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\octomap_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/octomap_msgs/cmake/octomap_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\octomap_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/octomap_msgs/cmake/octomap_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\octomap_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/octomap_msgs/cmake/octomap_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\octomap_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/octomap_msgs/cmake/octomap_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\octomap_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/octomap_msgs/cmake/octomap_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\octomap_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/octomap_msgs/cmake/octomap_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\octomap_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/srdfdom/cmake/srdfdomConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\srdfdom\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/srdfdom/cmake/srdfdomConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\srdfdom\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/srdfdom/cmake/srdfdomConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\srdfdom\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/srdfdom/cmake/srdfdomConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\srdfdom\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/srdfdom/cmake/srdfdomConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\srdfdom\cmake\" />
       </Unit>
@@ -4395,6 +5241,24 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdfdom_py/cmake/urdfdom_pyConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdfdom_py\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdfdom_py/cmake/urdfdom_pyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdfdom_py\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdfdom_py/cmake/urdfdom_pyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdfdom_py\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdfdom_py/cmake/urdfdom_pyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdfdom_py\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/urdfdom_py/cmake/urdfdom_pyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\urdfdom_py\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_perception\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_perception\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_perception\cmake\" />
       </Unit>
@@ -4418,6 +5282,24 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_perception\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_perception\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_perception\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning_interface\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning_interface\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning_interface\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning_interface\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning_interface\cmake\" />
@@ -4467,6 +5349,30 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning/cmake/moveit_ros_planningConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning/cmake/moveit_ros_planningConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_planning\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_warehouse\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_warehouse\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_warehouse\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_warehouse\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_warehouse\cmake\" />
       </Unit>
@@ -4491,6 +5397,18 @@
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/warehouse_ros/cmake/warehouse_rosConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\warehouse_ros\cmake\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/warehouse_ros/cmake/warehouse_rosConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\warehouse_ros\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/warehouse_ros/cmake/warehouse_rosConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\warehouse_ros\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/warehouse_ros/cmake/warehouse_rosConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\warehouse_ros\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/warehouse_ros/cmake/warehouse_rosConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\warehouse_ros\cmake\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_manipulation/cmake/moveit_ros_manipulationConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_manipulation\cmake\" />
       </Unit>
@@ -4502,6 +5420,30 @@
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_manipulation/cmake/moveit_ros_manipulationConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_manipulation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_manipulation/cmake/moveit_ros_manipulationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_manipulation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_manipulation/cmake/moveit_ros_manipulationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_manipulation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_manipulation/cmake/moveit_ros_manipulationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_manipulation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_manipulation/cmake/moveit_ros_manipulationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_manipulation\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_move_group\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_move_group\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_move_group\cmake\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_move_group\cmake\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../../../../opt/ros/kinetic/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\moveit_ros_move_group\cmake\" />
@@ -4737,7 +5679,19 @@
       <Unit filename="/home/cyr/catkin_ur/src/../build/universal_robot-kinetic-devel/ur5_moveit_config/catkin_generated/package.cmake">
           <Option virtualFolder="CMake Files\..\build\universal_robot-kinetic-devel\ur5_moveit_config\catkin_generated\" />
       </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../build/universal_robot-kinetic-devel/ur5hand_moveit_config/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\universal_robot-kinetic-devel\ur5hand_moveit_config\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../build/universal_robot-kinetic-devel/ur5hand_moveit_config/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\universal_robot-kinetic-devel\ur5hand_moveit_config\catkin_generated\" />
+      </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../build/universal_robot-kinetic-devel/ur5hand_moveit_config/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\universal_robot-kinetic-devel\ur5hand_moveit_config\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../build/universal_robot-kinetic-devel/ur5hand_moveit_config/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\universal_robot-kinetic-devel\ur5hand_moveit_config\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/cyr/catkin_ur/src/../build/universal_robot-kinetic-devel/ur5hand_moveit_config/catkin_generated/ordered_paths.cmake">
           <Option virtualFolder="CMake Files\..\build\universal_robot-kinetic-devel\ur5hand_moveit_config\catkin_generated\" />
       </Unit>
       <Unit filename="/home/cyr/catkin_ur/src/../build/universal_robot-kinetic-devel/ur5hand_moveit_config/catkin_generated/package.cmake">

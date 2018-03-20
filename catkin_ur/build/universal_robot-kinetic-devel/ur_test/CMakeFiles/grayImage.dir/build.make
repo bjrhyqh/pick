@@ -290,6 +290,7 @@ grayImage_EXTERNAL_OBJECTS =
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /opt/ros/kinetic/lib/libimage_transport.so
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /opt/ros/kinetic/lib/libclass_loader.so
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /usr/lib/libPocoFoundation.so
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /usr/lib/x86_64-linux-gnu/libdl.so

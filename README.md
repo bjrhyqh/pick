@@ -5,4 +5,9 @@ ur_gazebo/controller/controllers.yaml 控制带抓手的机械臂，positioncont
 ur_test/dxcimage.cpp 双目视觉读取并定位，所用orb位于include中，暂未提交\
 turtlebot_description 用来参考代码的，没有用\
 20170318 cyr\
-ur_gazebo/launch/testmoveit.launch moveit与gazebo的结合，在ur5hand_moveit_config中u5_moveit_planning_execution.launch无法用配置助手生成，关于srdf的载入有少量警告，move_group接口是否可以运用尚未得到验证
+ur_gazebo/launch/testmoveit.launch moveit与gazebo的结合，在ur5hand_moveit_config中u5_moveit_planning_execution.launch无法用配置助手生成，关于srdf的载入有少量警告，move_group接口是否可以运用尚未得到验证\
+20180320 cyr\
+可通过moveit控制机械臂运动，通过moveit_config下面的test_random.cpp和test_custom.cpp文件，带抓手的UR5和没有带抓手的均已验证可控\
+在gazebo环境中运用moveit，一定要加载moveit_planning_execution.launch\
+要点是moveit_config/config/controllers.yaml下的name一定要与gazebo加载时的对应，例如站ur5中name应为arm_controller，否则action ns会报错\
+目前利用moveit在gazebo中进行运动规划延迟很严重，原因不明

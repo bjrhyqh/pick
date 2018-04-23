@@ -41,8 +41,8 @@ public:
     RGB_GRAY()
       :it_(nh_) //构造函数
     {
-        image_sub_left = it_.subscribe("robot2/narrow_stereo/left/image_raw", 1, &RGB_GRAY::convert_callback1, this); //定义图象接受器，订阅话题是“camera/rgb/image_raw”
-        image_sub_right = it_.subscribe("robot2/narrow_stereo/right/image_raw", 1, &RGB_GRAY::convert_callback2, this);
+        image_sub_left = it_.subscribe("double_camera/narrow_stereo/left/image_raw", 1, &RGB_GRAY::convert_callback1, this); //定义图象接受器，订阅话题是“camera/rgb/image_raw”
+        image_sub_right = it_.subscribe("double_camera/narrow_stereo/right/image_raw", 1, &RGB_GRAY::convert_callback2, this);
         //初始化输入输出窗口
         cv::namedWindow(INPUT1);
          cv::namedWindow(INPUT2);

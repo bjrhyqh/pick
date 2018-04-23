@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="limited" default="false"/>
+  
+  <param unless="$(arg limited)" name="robot_description" command="$(find xacro)/xacro.py $(find ur5_robotiq_parallel_description)/Robot/ur5_robotiq_parallel.xacro ns:=robot" />
+  <param if="$(arg limited)" name="robot_description" command="$(find xacro)/xacro.py $(find ur5_robotiq_parallel_description)/Robot/ur5_robotiq_parallel_joint_limited.xacro ns:=robot" />
+<!--ns exists when two robot are loaded-->
+</launch>

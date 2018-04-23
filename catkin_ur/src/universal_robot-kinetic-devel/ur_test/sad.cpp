@@ -8,6 +8,7 @@
 #include<opencv2/imgproc/imgproc.hpp>
 #include <opencv2/features2d/features2d.hpp>
 #include <myinclude/orb.h>
+#include<ros/ros.h>
 using namespace std;
 using namespace cv;
 
@@ -32,20 +33,22 @@ using namespace cv;
 int main()
 {
     Mat Img_L=imread("/home/cyr/图片/Input1.png",1);
-    Mat Img_R=imread("/home/cyr/图片/Input2.png",1);
-    vector<Point3f>  matchMat;
-    matchMat=cacORB(Img_L,Img_R);
-//    vector<Point3f> matchMat;
-//    float matchRate= cacSURFFeatureAndCompare(Img_L,Img_R,1000);
-//    std::cout <<"matchRate:"<<matchRate<<std::endl;
-//    cv::imshow(matchMat);
-    int sizep=matchMat.size();
-    cout<<sizep<<endl;
-    for(int i=0;i<sizep;i++){
-      cout<<matchMat[i].x<<','<<matchMat[i].y<<','<<matchMat[i].z<<endl;
+    Mat img=Img_L;
+//    Mat Img_R=imread("/home/cyr/图片/Input2.png",1);
+    imshow("input",img);
+    waitKey(1000);
+    Vec3f tdata=img.at<Vec3f>(50,600);
+    cout<<tdata[0]<<','<<tdata[1]<<','<<tdata[2]<<endl;
+    cout<<img.cols<<endl;
+    Vec3f *pxvec=img.ptr<Vec3f>(0);
+    int i,j;
+    for(i=0;i<img.rows;i++){
+      pxvec=img.ptr<Vec3f>(i);
+      for(j=0;j<10;j++){
+        pxvec[j]=tdata;
+      }
     }
-    matchMat.clear();
-//    cv::waitKey(0);
-    return 0;
+    imshow("out",img);
+    waitKey(10000);
 }
 

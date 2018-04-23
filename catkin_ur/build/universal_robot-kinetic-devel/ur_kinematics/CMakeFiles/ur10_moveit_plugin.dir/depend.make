@@ -4,11 +4,13 @@
 universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_kinematics/include/ur_kinematics/ur_kin.h
 universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_kinematics/include/ur_kinematics/ur_moveit_plugin.h
 universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_kinematics/src/ur_moveit_plugin.cpp
+universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader.h
-universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader_core.h
-universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader_exceptions.h
-universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader_register_macro.h
-universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/meta_object.h
+universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader_core.hpp
+universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/console_bridge_compatibility.hpp
+universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/exceptions.hpp
+universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/meta_object.hpp
+universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/class_loader/register_macro.hpp
 universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/eigen_stl_containers/eigen_stl_containers.h
 universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/eigen_stl_containers/eigen_stl_map_container.h
 universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /opt/ros/kinetic/include/eigen_stl_containers/eigen_stl_vector_container.h

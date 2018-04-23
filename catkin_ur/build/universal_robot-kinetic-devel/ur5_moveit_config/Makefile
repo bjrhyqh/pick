@@ -56,16 +56,6 @@ CMAKE_BINARY_DIR = /home/cyr/catkin_ur/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,16 +67,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target test
+test/fast: test
 
-.PHONY : edit_cache/fast
+.PHONY : test/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -110,16 +100,15 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-.PHONY : test/fast
+.PHONY : list_install_components/fast
 
 # Special rule for the target install
 install: preinstall
@@ -132,6 +121,17 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,19 +166,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule
+universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule
+.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule
 
 # Convenience name for target.
-test_random_node: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule
+moveit_ros_planning_gencfg: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule
 
-.PHONY : test_random_node
+.PHONY : moveit_ros_planning_gencfg
 
 # fast build rule for target.
-test_random_node/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/build
-.PHONY : test_random_node/fast
+moveit_ros_planning_gencfg/fast:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/build
+.PHONY : moveit_ros_planning_gencfg/fast
 
 # Convenience name for target.
 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_manipulation_gencfg.dir/rule:
@@ -196,394 +196,19 @@ moveit_ros_manipulation_gencfg/fast:
 .PHONY : moveit_ros_manipulation_gencfg/fast
 
 # Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule
+universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule
+.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule
 
 # Convenience name for target.
-moveit_ros_planning_gencfg: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/rule
+test_random_node: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/rule
 
-.PHONY : moveit_ros_planning_gencfg
+.PHONY : test_random_node
 
 # fast build rule for target.
-moveit_ros_planning_gencfg/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_ros_planning_gencfg.dir/build
-.PHONY : moveit_ros_planning_gencfg/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_nodejs: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-octomap_msgs_generate_messages_nodejs/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
-.PHONY : octomap_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-moveit_msgs_generate_messages_nodejs: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : moveit_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-moveit_msgs_generate_messages_nodejs/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/build
-.PHONY : moveit_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_py.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_py.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-shape_msgs_generate_messages_py: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_py.dir/rule
-
-.PHONY : shape_msgs_generate_messages_py
-
-# fast build rule for target.
-shape_msgs_generate_messages_py/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_py.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_py.dir/build
-.PHONY : shape_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_py: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_py
-
-# fast build rule for target.
-octomap_msgs_generate_messages_py/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
-.PHONY : octomap_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-moveit_msgs_generate_messages_lisp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : moveit_msgs_generate_messages_lisp
-
-# fast build rule for target.
-moveit_msgs_generate_messages_lisp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build
-.PHONY : moveit_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_lisp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_lisp
-
-# fast build rule for target.
-octomap_msgs_generate_messages_lisp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
-.PHONY : octomap_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-moveit_msgs_generate_messages_py: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule
-
-.PHONY : moveit_msgs_generate_messages_py
-
-# fast build rule for target.
-moveit_msgs_generate_messages_py/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_py.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_py.dir/build
-.PHONY : moveit_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-shape_msgs_generate_messages_eus: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
-
-.PHONY : shape_msgs_generate_messages_eus
-
-# fast build rule for target.
-shape_msgs_generate_messages_eus/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_eus.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_eus.dir/build
-.PHONY : shape_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_eus: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_eus
-
-# fast build rule for target.
-octomap_msgs_generate_messages_eus/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
-.PHONY : octomap_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-moveit_msgs_generate_messages_eus: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule
-
-.PHONY : moveit_msgs_generate_messages_eus
-
-# fast build rule for target.
-moveit_msgs_generate_messages_eus/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_eus.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_eus.dir/build
-.PHONY : moveit_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-object_recognition_msgs_generate_messages_eus: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule
-
-.PHONY : object_recognition_msgs_generate_messages_eus
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_eus/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/build
-.PHONY : object_recognition_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-moveit_msgs_generate_messages_cpp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : moveit_msgs_generate_messages_cpp
-
-# fast build rule for target.
-moveit_msgs_generate_messages_cpp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build
-.PHONY : moveit_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-object_recognition_msgs_generate_messages_cpp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : object_recognition_msgs_generate_messages_cpp
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_cpp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build
-.PHONY : object_recognition_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-shape_msgs_generate_messages_cpp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : shape_msgs_generate_messages_cpp
-
-# fast build rule for target.
-shape_msgs_generate_messages_cpp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build
-.PHONY : shape_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-shape_msgs_generate_messages_lisp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : shape_msgs_generate_messages_lisp
-
-# fast build rule for target.
-shape_msgs_generate_messages_lisp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build
-.PHONY : shape_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-shape_msgs_generate_messages_nodejs: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : shape_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-shape_msgs_generate_messages_nodejs/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build
-.PHONY : shape_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-object_recognition_msgs_generate_messages_py: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
-
-.PHONY : object_recognition_msgs_generate_messages_py
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_py/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
-.PHONY : object_recognition_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_cpp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_cpp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-object_recognition_msgs_generate_messages_lisp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : object_recognition_msgs_generate_messages_lisp
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_lisp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
-.PHONY : object_recognition_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_eus: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_nodejs: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
-.PHONY : trajectory_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_lisp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_lisp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-object_recognition_msgs_generate_messages_nodejs: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : object_recognition_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_nodejs/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/build
-.PHONY : object_recognition_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-.PHONY : universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_cpp: universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_cpp
-
-# fast build rule for target.
-octomap_msgs_generate_messages_cpp/fast:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
-.PHONY : octomap_msgs_generate_messages_cpp/fast
+test_random_node/fast:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/build.make universal_robot-kinetic-devel/ur5_moveit_config/CMakeFiles/test_random_node.dir/build
+.PHONY : test_random_node/fast
 
 test_random.o: test_random.cpp.o
 
@@ -618,41 +243,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... moveit_ros_planning_gencfg"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... test_random_node"
-	@echo "... moveit_ros_manipulation_gencfg"
-	@echo "... moveit_ros_planning_gencfg"
-	@echo "... test"
-	@echo "... octomap_msgs_generate_messages_nodejs"
-	@echo "... moveit_msgs_generate_messages_nodejs"
-	@echo "... shape_msgs_generate_messages_py"
-	@echo "... octomap_msgs_generate_messages_py"
-	@echo "... moveit_msgs_generate_messages_lisp"
+	@echo "... list_install_components"
 	@echo "... install"
-	@echo "... octomap_msgs_generate_messages_lisp"
-	@echo "... moveit_msgs_generate_messages_py"
-	@echo "... shape_msgs_generate_messages_eus"
-	@echo "... octomap_msgs_generate_messages_eus"
-	@echo "... moveit_msgs_generate_messages_eus"
-	@echo "... object_recognition_msgs_generate_messages_eus"
-	@echo "... moveit_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_py"
-	@echo "... object_recognition_msgs_generate_messages_cpp"
-	@echo "... shape_msgs_generate_messages_cpp"
-	@echo "... shape_msgs_generate_messages_lisp"
-	@echo "... shape_msgs_generate_messages_nodejs"
-	@echo "... object_recognition_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... object_recognition_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_eus"
-	@echo "... trajectory_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... object_recognition_msgs_generate_messages_nodejs"
-	@echo "... octomap_msgs_generate_messages_cpp"
+	@echo "... moveit_ros_manipulation_gencfg"
+	@echo "... edit_cache"
+	@echo "... test_random_node"
 	@echo "... test_random.o"
 	@echo "... test_random.i"
 	@echo "... test_random.s"

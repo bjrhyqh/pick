@@ -39,6 +39,7 @@ struct SetPayloadResponse_
 
 
 
+
   typedef boost::shared_ptr< ::ur_msgs::SetPayloadResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::SetPayloadResponse_<ContainerAllocator> const> ConstPtr;
 

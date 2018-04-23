@@ -17,11 +17,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/include"
-  "/opt/ros/kinetic/include/opencv-3.3.1"
-  "/opt/ros/kinetic/include/opencv-3.3.1/opencv"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
   "/usr/include/eigen3"
   "/usr/include/pcl-1.7"
   "/usr/include/ni"

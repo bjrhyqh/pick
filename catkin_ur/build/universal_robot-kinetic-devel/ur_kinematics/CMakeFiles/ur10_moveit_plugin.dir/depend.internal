@@ -5,11 +5,13 @@ universal_robot-kinetic-devel/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/sr
  /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_kinematics/include/ur_kinematics/ur_kin.h
  /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_kinematics/include/ur_kinematics/ur_moveit_plugin.h
  /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_kinematics/src/ur_moveit_plugin.cpp
+ /opt/ros/kinetic/include/class_loader/./class_loader.hpp
  /opt/ros/kinetic/include/class_loader/class_loader.h
- /opt/ros/kinetic/include/class_loader/class_loader_core.h
- /opt/ros/kinetic/include/class_loader/class_loader_exceptions.h
- /opt/ros/kinetic/include/class_loader/class_loader_register_macro.h
- /opt/ros/kinetic/include/class_loader/meta_object.h
+ /opt/ros/kinetic/include/class_loader/class_loader_core.hpp
+ /opt/ros/kinetic/include/class_loader/console_bridge_compatibility.hpp
+ /opt/ros/kinetic/include/class_loader/exceptions.hpp
+ /opt/ros/kinetic/include/class_loader/meta_object.hpp
+ /opt/ros/kinetic/include/class_loader/register_macro.hpp
  /opt/ros/kinetic/include/eigen_stl_containers/eigen_stl_containers.h
  /opt/ros/kinetic/include/eigen_stl_containers/eigen_stl_map_container.h
  /opt/ros/kinetic/include/eigen_stl_containers/eigen_stl_vector_container.h

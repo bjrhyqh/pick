@@ -39,6 +39,7 @@ struct SetIOResponse_
 
 
 
+
   typedef boost::shared_ptr< ::ur_msgs::SetIOResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::SetIOResponse_<ContainerAllocator> const> ConstPtr;
 

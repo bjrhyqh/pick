@@ -77,12 +77,15 @@ struct ToolDataMsg_
   _tool_mode_type tool_mode;
 
 
-    enum { ANALOG_INPUT_RANGE_CURRENT = 0 };
-     enum { ANALOG_INPUT_RANGE_VOLTAGE = 1 };
-     enum { TOOL_BOOTLOADER_MODE = 249u };
-     enum { TOOL_RUNNING_MODE = 253u };
-     enum { TOOL_IDLE_MODE = 255u };
- 
+
+  enum {
+    ANALOG_INPUT_RANGE_CURRENT = 0,
+    ANALOG_INPUT_RANGE_VOLTAGE = 1,
+    TOOL_BOOTLOADER_MODE = 249u,
+    TOOL_RUNNING_MODE = 253u,
+    TOOL_IDLE_MODE = 255u,
+  };
+
 
   typedef boost::shared_ptr< ::ur_msgs::ToolDataMsg_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::ToolDataMsg_<ContainerAllocator> const> ConstPtr;

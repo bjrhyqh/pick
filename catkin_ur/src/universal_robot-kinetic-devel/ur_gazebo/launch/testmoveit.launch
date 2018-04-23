@@ -1,11 +1,20 @@
 <?xml version="1.0"?>
 <launch>
-   <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+<arg name="paused" default="false"/>
+<arg name="use_sim_time" default="true"/>
+<arg name="gui" default="true"/>
+<arg name="headless" default="false"/>
+<arg name="debug" default="false"/>
+<include file="$(find gazebo_ros)/launch/my_world.launch">
+  <arg name="world_name" default="worlds/myworld/grasp2.world"/>
+  <arg name="paused" value="$(arg paused)"/>
+  <arg name="gui" value="$(arg gui)"/>
+</include>
   <!-- Load the URDF into the ROS Parameter Server -->
   <param name="robot_description"
-         command="$(find xacro)/xacro.py '$(find ur_description)/urdf/ur5_with_hand.urdf'" />
+         command="$(find xacro)/xacro.py '$(find ur_description)/urdf/ur5_gripped.urdf'" />
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-                  args="-urdf -param robot_description -model robot -x 0 -y 0 -z 0.1"/>
+                  args="-urdf -param robot_description -model robot -x 0 -y -0 -z 0"/>
   <rosparam file="$(find ur_gazebo)/controller/joint_state_controller.yaml"
   command="load"/>
   <node name="joint_controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
@@ -14,10 +23,10 @@
        <param name="publish_frequency" type="double" value="50.0" />
        <param name="tf_prefix" type="string" value="" />
    </node>
-  <rosparam file="$(find ur_gazebo)/controller/trajectory_control.yaml" command="load"/>
+  <rosparam file="$(find ur_gazebo)/controller/ur5_gripped_trajectory_control.yaml" command="load"/>
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
   args="manipulator_controller gripper_controller"/>
-  <include file="$(find ur5hand_moveit_config)/launch/ur5_moveit_planning_execution.launch"/>
+  <include file="$(find ur5_gripped_moveit_config)/launch/ur5_moveit_planning_execution.launch"/>
 
 </launch>
 

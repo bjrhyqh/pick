@@ -18,9 +18,9 @@
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
 #include<opencv2/imgproc/imgproc.hpp>
-
-#include<myinclude/orb.h>
+#include <myinclude/orb.h>
 #include <boost/thread.hpp>
+#include <vector>
 
 static const std::string INPUT1 = "Input1"; //定义输入窗口名称
 static const std::string INPUT2 = "Input2"; //定义输入窗口名称
@@ -37,12 +37,13 @@ private:
 //    image_transport::Publisher image_pub_; //定义ROS图象发布器
     cv::Mat left;
     cv::Mat right;
+    bool receive;
 public:
     RGB_GRAY()
       :it_(nh_) //构造函数
     {
-        image_sub_left = it_.subscribe("robot2/narrow_stereo/left/image_raw", 1, &RGB_GRAY::convert_callback1, this); //定义图象接受器，订阅话题是“camera/rgb/image_raw”
-        image_sub_right = it_.subscribe("robot2/narrow_stereo/right/image_raw", 1, &RGB_GRAY::convert_callback2, this);
+        image_sub_left = it_.subscribe("double_camera/narrow_stereo/left/image_raw", 1, &RGB_GRAY::convert_callback1, this); //定义图象接受器，订阅话题是“camera/rgb/image_raw”
+        image_sub_right = it_.subscribe("double_camera/narrow_stereo/right/image_raw", 1, &RGB_GRAY::convert_callback2, this);
         //初始化输入输出窗口
         cv::namedWindow(INPUT1);
          cv::namedWindow(INPUT2);
@@ -80,8 +81,10 @@ public:
     void image_process1(cv::Mat img1)
     {
        cv::Mat img_out1;
+       img1=convert_cut(img1);
        cv::cvtColor(img1, img_out1, CV_RGB2GRAY);  //转换成灰度图象
        left=img1;
+       receive=true;
        cv::imshow(INPUT1, img_out1);
 //       cv::imshow(OUTPUT, img_out);
        cv::waitKey(5);
@@ -110,18 +113,38 @@ public:
   void image_process2(cv::Mat img2)
   {
      cv::Mat img_out2;
+     img2=convert_cut(img2);
      cv::cvtColor(img2, img_out2, CV_RGB2GRAY);  //转换成灰度图象
+     if(receive==true){
      right=img2;
        cv::imshow(INPUT2, img_out2);
 //       cv::imshow(OUTPUT, img_out);
      cv::waitKey(5);
      cv::Mat matchMat=cacORBFeatureAndCompare(left,right);
+//     vector<Point3f> matchMat=cacORB(left,right);
 //     int sizep=matchMat.size();
 //     for(int i=0;i<sizep;i++){
 //       cout<<matchMat[i].x<<','<<matchMat[i].y<<','<<matchMat[i].z<<endl;
 //     }
 //     matchMat.clear();
      cv::imshow("matchMat",matchMat);
+     }
+     receive=false;
+
+  }
+
+  cv::Mat convert_cut(cv::Mat img){
+     Vec3f tdata=img.at<Vec3f>(50,600);
+     Vec3f *pxvec=img.ptr<Vec3f>(0);
+     int i,j;
+     for(i=0;i<img.rows;i++){
+       pxvec=img.ptr<Vec3f>(i);
+       for(j=0;j<25;j++){
+         pxvec[j]=tdata;
+       }
+     }
+     cv::waitKey(10);
+     return img;
   }
 };
 

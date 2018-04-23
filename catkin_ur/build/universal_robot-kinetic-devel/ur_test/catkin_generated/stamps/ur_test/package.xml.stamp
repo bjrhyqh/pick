@@ -51,6 +51,12 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>pcl_conversions</build_depend>
   <build_depend>pcl_ros</build_depend>
+  <depend>roscpp</depend>
+    <depend>zbar</depend>
+    <depend>sensor_msgs</depend>
+    <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>std_msgs</depend>
 <!--
   <run_depend>pcl_conversions</run_depend>
   <run_depend>pcl_ros</run_depend>-->

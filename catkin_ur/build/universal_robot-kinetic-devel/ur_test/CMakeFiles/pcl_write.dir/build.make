@@ -285,9 +285,9 @@ pcl_write_EXTERNAL_OBJECTS =
 /home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libactionlib.so
 /home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libtf2.so
 /home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
-/home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-/home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
+/home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
 /home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libimage_transport.so
 /home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /opt/ros/kinetic/lib/libmessage_filters.so
 /home/cyr/catkin_ur/devel/lib/ur_test/pcl_write: /usr/lib/x86_64-linux-gnu/libtinyxml2.so

@@ -1,9 +1,21 @@
-#include <ros/ros.h>
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
 
-int main(int argc, char **argv)
-{
-  ros::init(argc, argv, "qrcode");
-  ros::NodeHandle nh;
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
 
-  ROS_INFO("Hello world!");
-}
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://mark</uri>
+      <name>mark</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

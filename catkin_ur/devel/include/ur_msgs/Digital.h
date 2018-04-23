@@ -44,6 +44,7 @@ struct Digital_
 
 
 
+
   typedef boost::shared_ptr< ::ur_msgs::Digital_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::Digital_<ContainerAllocator> const> ConstPtr;
 

@@ -47,11 +47,14 @@ struct SetIORequest_
   _state_type state;
 
 
-    enum { FUN_SET_DIGITAL_OUT = 1 };
-     enum { FUN_SET_FLAG = 2 };
-     enum { FUN_SET_ANALOG_OUT = 3 };
-     enum { FUN_SET_TOOL_VOLTAGE = 4 };
- 
+
+  enum {
+    FUN_SET_DIGITAL_OUT = 1,
+    FUN_SET_FLAG = 2,
+    FUN_SET_ANALOG_OUT = 3,
+    FUN_SET_TOOL_VOLTAGE = 4,
+  };
+
 
   typedef boost::shared_ptr< ::ur_msgs::SetIORequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::SetIORequest_<ContainerAllocator> const> ConstPtr;

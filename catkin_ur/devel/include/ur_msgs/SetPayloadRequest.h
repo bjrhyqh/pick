@@ -39,6 +39,7 @@ struct SetPayloadRequest_
 
 
 
+
   typedef boost::shared_ptr< ::ur_msgs::SetPayloadRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::SetPayloadRequest_<ContainerAllocator> const> ConstPtr;
 

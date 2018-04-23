@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: grasp
+Description: Description of grasp
+Version: 0.1.0
+Cflags: -I/home/cyr/catkin_ur/install/include
+Libs: -L/home/cyr/catkin_ur/install/lib 
+Requires: roscpp rospy std_msgs message_runtime

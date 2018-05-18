@@ -1,0 +1,6 @@
+set(my_grasp_SETUP_PY_VERSION "0.1.0")
+set(my_grasp_SETUP_PY_SCRIPTS "")
+set(my_grasp_SETUP_PY_PACKAGES "my_grasp")
+set(my_grasp_SETUP_PY_PACKAGE_DIRS "src/my_grasp")
+set(my_grasp_SETUP_PY_MODULES "")
+set(my_grasp_SETUP_PY_MODULE_DIRS "")

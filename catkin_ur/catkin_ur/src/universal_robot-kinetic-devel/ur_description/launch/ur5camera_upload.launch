@@ -1,0 +1,6 @@
+<launch>
+  <!-- send pr2 urdf to param server -->
+  <group>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find ur_description)/urdf/ur5_with_hand.urdf.xacro'" />
+  </group>
+</launch>

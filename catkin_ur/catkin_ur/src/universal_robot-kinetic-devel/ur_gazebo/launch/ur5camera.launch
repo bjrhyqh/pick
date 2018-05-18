@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="paused" default="false"/>
+<arg name="use_sim_time" default="true"/>
+<arg name="gui" default="true"/>
+<arg name="headless" default="false"/>
+<arg name="debug" default="false"/>
+<include file="$(find gazebo_ros)/launch/my_world.launch">
+  <arg name="world_name" default="$(find ur5_robotiq_parallel_bringup)/worlds/qrcode.world"/>
+  <arg name="paused" value="$(arg paused)"/>
+  <arg name="gui" value="$(arg gui)"/>
+</include>
+<param name="robot_description"
+    command="$(find xacro)/xacro
+    $(find ur_description)/urdf/ur5withdouble.urdf.xacro"/>
+<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+     args="-urdf -model robot2 -param robot_description -x 0 -y 1 -z 0.2"/>
+</launch>

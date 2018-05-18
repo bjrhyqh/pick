@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/devel
+
+Name: kinova_driver
+Description: Description of kinova_driver
+Version: 0.0.1
+Cflags: -I/home/cyr/catkin_ur/devel/include -I/home/cyr/catkin_ur/src/kinova-ros-master/kinova_driver/include
+Libs: -L/home/cyr/catkin_ur/devel/lib -lkinova_driver
+Requires: actionlib actionlib_msgs geometry_msgs kinova_msgs roscpp rospy sensor_msgs std_msgs tf interactive_markers visualization_msgs

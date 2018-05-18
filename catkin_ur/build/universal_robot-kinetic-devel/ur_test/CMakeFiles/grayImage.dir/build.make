@@ -57,38 +57,38 @@ include universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/progress.
 # Include the compile flags for this target's objects.
 include universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/flags.make
 
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/flags.make
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o: /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/dxcimage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyr/catkin_ur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o"
-	cd /home/cyr/catkin_ur/build/universal_robot-kinetic-devel/ur_test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grayImage.dir/dxcimage.cpp.o -c /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/dxcimage.cpp
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/flags.make
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o: /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/harris.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyr/catkin_ur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o"
+	cd /home/cyr/catkin_ur/build/universal_robot-kinetic-devel/ur_test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grayImage.dir/harris.cpp.o -c /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/harris.cpp
 
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grayImage.dir/dxcimage.cpp.i"
-	cd /home/cyr/catkin_ur/build/universal_robot-kinetic-devel/ur_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/dxcimage.cpp > CMakeFiles/grayImage.dir/dxcimage.cpp.i
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grayImage.dir/harris.cpp.i"
+	cd /home/cyr/catkin_ur/build/universal_robot-kinetic-devel/ur_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/harris.cpp > CMakeFiles/grayImage.dir/harris.cpp.i
 
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grayImage.dir/dxcimage.cpp.s"
-	cd /home/cyr/catkin_ur/build/universal_robot-kinetic-devel/ur_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/dxcimage.cpp -o CMakeFiles/grayImage.dir/dxcimage.cpp.s
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grayImage.dir/harris.cpp.s"
+	cd /home/cyr/catkin_ur/build/universal_robot-kinetic-devel/ur_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_test/harris.cpp -o CMakeFiles/grayImage.dir/harris.cpp.s
 
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.requires:
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.requires:
 
-.PHONY : universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.requires
+.PHONY : universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.requires
 
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.provides: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.requires
-	$(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.provides.build
-.PHONY : universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.provides
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.provides: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.requires
+	$(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.provides.build
+.PHONY : universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.provides
 
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.provides.build: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.provides.build: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o
 
 
 # Object files for target grayImage
 grayImage_OBJECTS = \
-"CMakeFiles/grayImage.dir/dxcimage.cpp.o"
+"CMakeFiles/grayImage.dir/harris.cpp.o"
 
 # External object files for target grayImage
 grayImage_EXTERNAL_OBJECTS =
 
-/home/cyr/catkin_ur/devel/lib/ur_test/grayImage: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o
+/home/cyr/catkin_ur/devel/lib/ur_test/grayImage: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /opt/ros/kinetic/lib/libinteractive_markers.so
 /home/cyr/catkin_ur/devel/lib/ur_test/grayImage: /opt/ros/kinetic/lib/libpcl_ros_filters.so
@@ -372,7 +372,7 @@ universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build: /home/cyr/
 
 .PHONY : universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build
 
-universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/requires: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o.requires
+universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/requires: universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o.requires
 
 .PHONY : universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/requires
 

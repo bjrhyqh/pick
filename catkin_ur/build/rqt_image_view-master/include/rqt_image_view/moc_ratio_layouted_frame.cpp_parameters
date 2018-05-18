@@ -1,0 +1,6 @@
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="rqt_image_view"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/cyr/catkin_ur/build/rqt_image_view-master/include/rqt_image_view/moc_ratio_layouted_frame.cpp
+/home/cyr/catkin_ur/src/rqt_image_view-master/include/rqt_image_view/ratio_layouted_frame.h

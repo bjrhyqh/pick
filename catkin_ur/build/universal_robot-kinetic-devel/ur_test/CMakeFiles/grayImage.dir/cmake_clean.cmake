@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/grayImage.dir/dxcimage.cpp.o"
+  "CMakeFiles/grayImage.dir/harris.cpp.o"
   "/home/cyr/catkin_ur/devel/lib/ur_test/grayImage.pdb"
   "/home/cyr/catkin_ur/devel/lib/ur_test/grayImage"
 )

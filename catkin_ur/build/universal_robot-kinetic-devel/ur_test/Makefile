@@ -210,32 +210,32 @@ zbar_opencv/fast:
 	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/zbar_opencv.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/zbar_opencv.dir/build
 .PHONY : zbar_opencv/fast
 
-dxcimage.o: dxcimage.cpp.o
+harris.o: harris.cpp.o
 
-.PHONY : dxcimage.o
+.PHONY : harris.o
 
 # target to build an object file
-dxcimage.cpp.o:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.o
-.PHONY : dxcimage.cpp.o
+harris.cpp.o:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.o
+.PHONY : harris.cpp.o
 
-dxcimage.i: dxcimage.cpp.i
+harris.i: harris.cpp.i
 
-.PHONY : dxcimage.i
+.PHONY : harris.i
 
 # target to preprocess a source file
-dxcimage.cpp.i:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.i
-.PHONY : dxcimage.cpp.i
+harris.cpp.i:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.i
+.PHONY : harris.cpp.i
 
-dxcimage.s: dxcimage.cpp.s
+harris.s: harris.cpp.s
 
-.PHONY : dxcimage.s
+.PHONY : harris.s
 
 # target to generate assembly for a file
-dxcimage.cpp.s:
-	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/dxcimage.cpp.s
-.PHONY : dxcimage.cpp.s
+harris.cpp.s:
+	cd /home/cyr/catkin_ur/build && $(MAKE) -f universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/build.make universal_robot-kinetic-devel/ur_test/CMakeFiles/grayImage.dir/harris.cpp.s
+.PHONY : harris.cpp.s
 
 ur5_pointcl.o: ur5_pointcl.cpp.o
 
@@ -307,9 +307,9 @@ help:
 	@echo "... zbar_opencv"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... dxcimage.o"
-	@echo "... dxcimage.i"
-	@echo "... dxcimage.s"
+	@echo "... harris.o"
+	@echo "... harris.i"
+	@echo "... harris.s"
 	@echo "... ur5_pointcl.o"
 	@echo "... ur5_pointcl.i"
 	@echo "... ur5_pointcl.s"

@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/devel
+
+Name: gazebo_ros_link_attacher
+Description: Description of gazebo_ros_link_attacher
+Version: 0.0.0
+Cflags: -I/home/cyr/catkin_ur/devel/include
+Libs: -L/home/cyr/catkin_ur/devel/lib 
+Requires: message_runtime

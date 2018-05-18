@@ -6,7 +6,7 @@
 
   <!-- startup simulated world -->
   <include file="$(find gazebo_ros)/launch/my_world.launch">
-    <arg name="world_name" value="$(find ur5_robotiq_parallel_bringup)/worlds/box.world"/>
+    <arg name="world_name" value="$(find ur5_robotiq_parallel_bringup)/worlds/grasp3.world"/>
     <arg name="paused" value="$(arg paused)"/>
     <arg name="gui" value="$(arg gui)"/>
   </include>

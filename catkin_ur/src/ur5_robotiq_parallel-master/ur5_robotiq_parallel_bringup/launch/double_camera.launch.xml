@@ -4,6 +4,6 @@
         command="$(find xacro)/xacro
         $(find ur_description)/urdf/ur5withdouble.urdf.xacro ns:=double_camera"/>
     <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-         args="-urdf -model double_camera -param robot_description -x -0.7 -y 1.5 -z 0.02"/>
+         args="-urdf -model double_camera -param robot_description -x -0.6 -y 1.5 -z 0.02"/>
 </group>
 </launch>

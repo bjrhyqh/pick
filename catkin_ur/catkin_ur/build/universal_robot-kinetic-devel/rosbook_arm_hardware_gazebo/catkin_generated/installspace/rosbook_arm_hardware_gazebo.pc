@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: rosbook_arm_hardware_gazebo
+Description: Description of rosbook_arm_hardware_gazebo
+Version: 0.1.0
+Cflags: -I/home/cyr/catkin_ur/install/include
+Libs: -L/home/cyr/catkin_ur/install/lib -lrosbook_arm_hardware_gazebo
+Requires: roscpp angles control_toolbox gazebo_ros_control hardware_interface joint_limits_interface

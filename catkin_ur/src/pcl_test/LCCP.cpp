@@ -90,25 +90,35 @@ cloud_cb (const sensor_msgs::PointCloud2ConstPtr& input)
     SuperVoxelAdjacencyList sv_adjacency_list;
     lccp.getSVAdjacencyList(sv_adjacency_list);
   // 把提取出来的分割发布出去
-   sensor_msgs::PointCloud2 output;   //声明的输出的点云的格式
+//   sensor_msgs::PointCloud2 output;   //声明的输出的点云的格式
 
-  pcl::toROSMsg(*lccp_labeled_cloud, output);    //第一个参数是输入，后面的是输出
+//  pcl::toROSMsg(*lccp_labeled_cloud, output);    //第一个参数是输入，后面的是输出
 
-  pub.publish (output);
+//  pub.publish (output);
+  pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("3D Viewer"));
+  viewer->setBackgroundColor (0, 0, 0);
+  viewer->addPointCloud<pcl::PointXYZL>(lccp_labeled_cloud, "Segmented point cloud");
+//  viewer->addPointCloud<pcl::PointXYZRGBA>(input_cloud_ptr, "Segmented point cloud",0);
+
+  PCL_INFO ("Loading viewer\n");
+  while (!viewer->wasStopped ())
+  {
+  viewer->spinOnce (100);
+  }
+  ros::Duration(2.5).sleep();;
 }
 
-int
-main (int argc, char** argv)
+int main (int argc, char** argv)
 {
   // Initialize ROS
   ros::init (argc, argv, "my_pcl_tutorial");
   ros::NodeHandle nh;
 
   // Create a ROS subscriber for the input point cloud
-  ros::Subscriber sub = nh.subscribe ("input", 1, cloud_cb);
+  ros::Subscriber sub = nh.subscribe ("/head_mount_kinect/depth_registered/points", 1, cloud_cb);
 
   // Create a ROS publisher for the output model coefficients
-   pub = nh.advertise<sensor_msgs::PointCloud2> ("output", 1);
+//   pub = nh.advertise<sensor_msgs::PointCloud2> ("output", 1);
 
   // Spin
   ros::spin ();

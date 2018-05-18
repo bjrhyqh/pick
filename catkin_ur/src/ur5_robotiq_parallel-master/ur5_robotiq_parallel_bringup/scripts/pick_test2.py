@@ -130,9 +130,9 @@ if __name__=='__main__':
     rospy.sleep(0.1)
     place_pose = PoseStamped()
     place_pose.header.frame_id = robot.get_planning_frame()
-    place_pose.pose.position.x = -0.224157
-    place_pose.pose.position.y = 0.704343
-    place_pose.pose.position.z = 0.175525
+    place_pose.pose.position.x = 0.224157
+    place_pose.pose.position.y = 0.504343
+    place_pose.pose.position.z = 0.275525
     place_pose.pose.orientation.x = 0
     place_pose.pose.orientation.y = 1
     place_pose.pose.orientation.z = 0

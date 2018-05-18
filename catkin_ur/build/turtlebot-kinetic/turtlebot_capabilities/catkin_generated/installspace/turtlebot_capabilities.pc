@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: turtlebot_capabilities
+Description: Description of turtlebot_capabilities
+Version: 2.4.2
+Cflags: 
+Libs: -L/home/cyr/catkin_ur/install/lib 
+Requires: 

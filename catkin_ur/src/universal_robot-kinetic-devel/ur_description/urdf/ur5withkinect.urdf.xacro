@@ -3,24 +3,49 @@
        name="ur5" >
  <xacro:include filename="$(find ur_description)/urdf/common.xacro" />
 <xacro:include filename="$(find ur_description)/urdf/common.gazebo.xacro" />
-<xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro" />
-<xacro:include filename="$(find ur_description)/urdf/sensors/kinect2.urdf.xacro" />
+<!--<xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro" />-->
+<!--<xacro:include filename="$(find ur_description)/urdf/sensors/kinect_camera.urdf.xacro" />-->
 
-<xacro:ur5_robot prefix="" joint_limited="true"/>
+<!--<xacro:ur5_robot prefix="" joint_limited="true"/>-->
 <link name="world" />
-<!--  <link name="base"/>
-  <link name="tool0"/>-->
 
 <joint name="world_joint" type="fixed">
-   <parent link="world" />
-   <child link = "base_link" />
-   <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
- </joint>
+  <parent link="world" />
+  <child link = "head_plate_frame" />
+  <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 3.14" />
+</joint>
+
+<link name="head_plate_frame">
+
+  <inertial>
+    <mass value="10.00" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <inertia ixx="0.001"  ixy="0.0"  ixz="0.0"
+             iyy="0.001"  iyz="0.0"
+             izz="0.001" />
+  </inertial>
+
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.00001 0.00001 0.01" />
+    </geometry>
+
+    <material name="Blue" />
+  </visual>
+
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.1 0.1 0.01" />
+    </geometry>
+  </collision>
+</link>
 
 <!-- end effector -->
-<xacro:include filename="$(find ur_description)/urdf/sensors/kinect2.urdf.xacro" />
-<xacro:kinect2_v0 name="head_mount" parent="ee_link" >
-  <origin xyz="-0.137376 0 0.091746" rpy="0 0 0" />
-</xacro:kinect2_v0>
+<xacro:include filename="$(find ur_description)/urdf/sensors/kinect_prosilica_camera.urdf.xacro" />
+<xacro:kinect_prosilica_camera_swept_back_v0 name="head_mount" parent="head_plate_frame" >
+  <origin xyz="0 0 0" rpy="0 0 0" />
+</xacro:kinect_prosilica_camera_swept_back_v0>
 
 </robot>

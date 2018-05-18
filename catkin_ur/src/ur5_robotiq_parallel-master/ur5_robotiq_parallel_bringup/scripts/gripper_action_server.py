@@ -15,7 +15,7 @@ class ParallelGripperActionController:
         rospy.init_node('gripper_controller')
        
        
-        self.r_pub = rospy.Publisher('robot/gripper_controller/command', Float64, queue_size=10)
+        self.r_pub = rospy.Publisher('/gripper_controller/command', Float64, queue_size=10)
 
         # subscribe to command and then spin
         self.server = actionlib.SimpleActionServer('~gripper_action', GripperCommandAction, execute_cb=self.actionCb, auto_start=False)

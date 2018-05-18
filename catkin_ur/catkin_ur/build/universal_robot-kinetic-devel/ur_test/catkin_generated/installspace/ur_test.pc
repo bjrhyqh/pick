@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: ur_test
+Description: Description of ur_test
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/cyr/catkin_ur/install/lib 
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.4.1, 2018-04-23T17:56:48. -->
+<!-- Written by QtCreator 4.4.1, 2018-05-18T11:57:50. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -102,11 +102,16 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">LD_LIBRARY_PATH=/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib:/home/cyr/catkin_ur/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib</value>
-     <value type="QString">LUA_PATH=;;/opt/ros/kinetic/share/lua/5.1/?.lua;/opt/ros/kinetic/share/lua/5.1/?.lua;/opt/ros/kinetic/share/lua/5.1/?.lua;/opt/ros/kinetic/share/lua/5.1/?.lua</value>
-     <value type="QString">PATH=/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/opt/ros/kinetic/bin:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/home/cyr/bin:/home/cyr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
+     <value type="QString">CMAKE_PREFIX_PATH=/home/cyr/catkin_ur/devel:/opt/ros/kinetic</value>
+     <value type="QString">LD_LIBRARY_PATH=/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib:/home/cyr/catkin_ur/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/lib</value>
+     <value type="QString">LUA_PATH=;;/opt/ros/kinetic/share/lua/5.1/?.lua;/opt/ros/kinetic/share/lua/5.1/?.lua;/opt/ros/kinetic/share/lua/5.1/?.lua;/opt/ros/kinetic/share/lua/5.1/?.lua;/opt/ros/kinetic/share/lua/5.1/?.lua</value>
+     <value type="QString">PATH=/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/home/cyr/catkin_ur/devel/bin:/opt/ros/kinetic/bin:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/opt/ros/kinetic/share/euslisp/jskeus/eus//Linux64/bin:/home/cyr/bin:/home/cyr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
+     <value type="QString">PKG_CONFIG_PATH=/home/cyr/catkin_ur/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig</value>
      <value type="QString">PWD=/home/cyr/catkin_ur</value>
+     <value type="QString">PYTHONPATH=/home/cyr/catkin_ur/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages</value>
      <value type="QString">QTDIR</value>
+     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/cyr/catkin_ur/devel/share/common-lisp</value>
+     <value type="QString">ROS_PACKAGE_PATH=/home/cyr/catkin_ur/src:/opt/ros/kinetic/share</value>
      <value type="QString">SHLVL=3</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
@@ -360,34 +365,10 @@
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">roslaunch</value>
       <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">ur_gazebo</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">ur5camera.launch</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_gazebo/launch/ur5camera.launch</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">testmoveit.launch</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/cyr/catkin_ur/src/universal_robot-kinetic-devel/ur_gazebo/launch/testmoveit.launch</value>
      </valuemap>
-     <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.1">
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunStep</value>
-      <value type="bool" key="ProjectExplorer.RunStep.Enabled">true</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
-      <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">qr_detector</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target"></value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath"></value>
-     </valuemap>
-     <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.2">
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunStep</value>
-      <value type="bool" key="ProjectExplorer.RunStep.Enabled">true</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
-      <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">pcl_test</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">LCCP</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/cyr/catkin_ur/devel/lib/pcl_test/LCCP</value>
-     </valuemap>
-     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">3</value>
+     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">1</value>
     </valuemap>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>

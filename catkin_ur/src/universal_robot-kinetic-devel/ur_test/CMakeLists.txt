@@ -56,7 +56,7 @@ target_link_libraries(pcl_write
    ${catkin_LIBRARIES}
  )
 
-add_executable(grayImage dxcimage.cpp)   #将src中的文件添加成名字为grayImage的可执行文件
+add_executable(grayImage harris.cpp)   #将src中的文件添加成名字为grayImage的可执行文件
 #target_link_libraries(grayImage ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} opencv_nonfree)  #将相关的库和可执行文件链接
 target_link_libraries(grayImage ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})  #将相关的库和可执行文件链接
 add_dependencies(grayImage robot_vision_generate_messages_cpp)  #给可执行文件添加依赖包

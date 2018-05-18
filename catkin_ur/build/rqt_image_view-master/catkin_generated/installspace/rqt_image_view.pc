@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: rqt_image_view
+Description: Description of rqt_image_view
+Version: 0.4.11
+Cflags: -I/home/cyr/catkin_ur/install/include
+Libs: -L/home/cyr/catkin_ur/install/lib -lrqt_image_view
+Requires: rqt_gui rqt_gui_cpp image_transport sensor_msgs cv_bridge geometry_msgs

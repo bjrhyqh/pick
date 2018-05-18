@@ -638,3 +638,17 @@ Linking C executable cmTC_f8e7a
 make[1]: Leaving directory '/home/cyr/catkin_ur/build/CMakeFiles/CMakeTmp'
 
 
+Determining if the CXX compiler accepts the flag -Wl,--version-script,"/home/cyr/catkin_ur/build/rqt_image_view-master/class_loader_hide_library_symbols__rqt_image_view.script" passed with the following output:
+Change Dir: /home/cyr/catkin_ur/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6dbd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6dbd8.dir/build.make CMakeFiles/cmTC_6dbd8.dir/build
+make[1]: Entering directory '/home/cyr/catkin_ur/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6dbd8.dir/DummyCXXFile.cxx.o
+/usr/bin/c++     -Wl,--version-script,"/home/cyr/catkin_ur/build/rqt_image_view-master/class_loader_hide_library_symbols__rqt_image_view.script"   -o CMakeFiles/cmTC_6dbd8.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.5/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_6dbd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dbd8.dir/link.txt --verbose=1
+/usr/bin/c++    -Wl,--version-script,"/home/cyr/catkin_ur/build/rqt_image_view-master/class_loader_hide_library_symbols__rqt_image_view.script"    CMakeFiles/cmTC_6dbd8.dir/DummyCXXFile.cxx.o  -o cmTC_6dbd8 -rdynamic 
+make[1]: Leaving directory '/home/cyr/catkin_ur/build/CMakeFiles/CMakeTmp'
+
+

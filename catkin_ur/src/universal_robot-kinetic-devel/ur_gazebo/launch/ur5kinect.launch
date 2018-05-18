@@ -32,11 +32,11 @@
     <group ns="robot2">
         <param name="robot_description"
             command="$(find xacro)/xacro
-            $(find ur_description)/urdf/ur5withdouble.urdf.xacro ns:=robot2"/>
-        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
-        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+            $(find ur_description)/urdf/ur5withkinect.urdf.xacro ns:=robot2"/>
+<!--        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />-->
         <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-             args="-urdf -model robot2 -param robot_description -x 2.00 -y 0 -z 0.95"/>
+             args="-urdf -model robot2 -param robot_description -x 1.5 -y 0 -z 1.1"/>
     </group>
    <!-- <include file="$(find ur_gazebo)/launch/controller_utils.launch"/>
 

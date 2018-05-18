@@ -19,6 +19,8 @@
 #include<opencv2/highgui/highgui.hpp>
 #include<opencv2/imgproc/imgproc.hpp>
 #include <myinclude/orb.h>
+#include<myinclude/cacpose.h>
+#include<myinclude/contours.h>
 #include <boost/thread.hpp>
 #include <vector>
 
@@ -42,12 +44,12 @@ public:
     RGB_GRAY()
       :it_(nh_) //构造函数
     {
-        image_sub_left = it_.subscribe("double_camera/narrow_stereo/left/image_raw", 1, &RGB_GRAY::convert_callback1, this); //定义图象接受器，订阅话题是“camera/rgb/image_raw”
-        image_sub_right = it_.subscribe("double_camera/narrow_stereo/right/image_raw", 1, &RGB_GRAY::convert_callback2, this);
+        image_sub_left = it_.subscribe("double_camera/wide_stereo/left/image_raw", 1, &RGB_GRAY::convert_callback1, this); //定义图象接受器，订阅话题是“camera/rgb/image_raw”
+        image_sub_right = it_.subscribe("double_camera/wide_stereo/right/image_raw", 1, &RGB_GRAY::convert_callback2, this);
         //初始化输入输出窗口
         cv::namedWindow(INPUT1);
          cv::namedWindow(INPUT2);
-        cv::namedWindow(OUTPUT);
+//        cv::namedWindow(OUTPUT);
 //        sad(left,right);
     }
     ~RGB_GRAY() //析构函数
@@ -112,25 +114,28 @@ public:
   */
   void image_process2(cv::Mat img2)
   {
-     cv::Mat img_out2;
+     cv::Mat img_out2,imgt1,imgt2;
      img2=convert_cut(img2);
      cv::cvtColor(img2, img_out2, CV_RGB2GRAY);  //转换成灰度图象
      if(receive==true){
      right=img2;
        cv::imshow(INPUT2, img_out2);
-//       cv::imshow(OUTPUT, img_out);
+//       cout<<(int)img_out2.at<uchar>(290,270)<<endl;
+//       cout<<(int)img_out2.at<uchar>(250,290)<<endl;
      cv::waitKey(5);
-     cv::Mat matchMat=cacORBFeatureAndCompare(left,right);
+//     cv::Mat matchMat=cacORBFeatureAndCompare(left,right);
 //     vector<Point3f> matchMat=cacORB(left,right);
-//     int sizep=matchMat.size();
-//     for(int i=0;i<sizep;i++){
-//       cout<<matchMat[i].x<<','<<matchMat[i].y<<','<<matchMat[i].z<<endl;
-//     }
+//     cacthepose(matchMat);
+     Mat img_thr;
+     threshold(img_out2,imgt1,40,255,THRESH_BINARY);
+     threshold(img_out2,imgt2,170,255,THRESH_BINARY);
+     img_thr=imgt1-imgt2;
+     imshow("cut",img_thr);
+     FindContoursBasic(img_thr);
 //     matchMat.clear();
-     cv::imshow("matchMat",matchMat);
-     }
+//     cv::imshow("matchMat",matchMat);
      receive=false;
-
+}
   }
 
   cv::Mat convert_cut(cv::Mat img){

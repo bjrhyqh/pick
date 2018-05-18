@@ -17,7 +17,7 @@
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
       <real_time_update_rate>1000</real_time_update_rate>
-      <gravity>0 0 -9.81</gravity>
+      <gravity>0 0 0</gravity>
     </physics>
 
 
@@ -90,14 +90,22 @@
             </geometry>
           <material>
             <script>
-              <name>Gazebo/Green</name>
+              <name>Gazebo/Yellow</name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
             </script>
           </material>
         </visual>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
+
       </link>
+      <plugin filename="libgazebo_ros_force.so" name="gazebo_ros_force">
+      <alwaysOn>true</alwaysOn>
+      <update>100</update>
+      <updateRate>100.0</updateRate>
+        <bodyName>coke_can</bodyName>
+        <topicName>/coke_can_force</topicName>
+      </plugin>
     </model>
 
    <model name='table_box_model'>
@@ -157,6 +165,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
+
 
   </world>
 </sdf>

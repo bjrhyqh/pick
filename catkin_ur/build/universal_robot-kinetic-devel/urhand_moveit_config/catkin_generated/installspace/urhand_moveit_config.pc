@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: urhand_moveit_config
+Description: Description of urhand_moveit_config
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/cyr/catkin_ur/install/lib 
+Requires: 

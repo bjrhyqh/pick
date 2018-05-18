@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="paused" default="false"/>
+    <arg name="use_sim_time" default="true"/>
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+    <arg name="debug" default="false"/>
+
+    <include file="$(find gazebo_ros)/launch/my_world.launch">
+      <arg name="world_name" default="worlds/myworld/table_with_coke.world"/>
+      <arg name="paused" value="$(arg paused)"/>
+      <arg name="gui" value="$(arg gui)"/>
+    </include>
+
+    <group ns="ur5hand/">
+        <param name="robot_description"
+            command="$(find xacro)/xacro
+            $(find ur_description)/urdf/ur5_with_hand.urdf.xacro ns:=ur5hand/"/>
+        <!--<rosparam file="$(find ur_gazebo)/controller/controllers.yaml" command="load"/>-->
+<!--        <node name="joint_controller_spawner" pkg="controller_manager" type="controller_manager"
+              args="spawn shoulder_pan_position_controller finger1_position_controller joint_state_controller"
+              respawn="false" output="screen"/>-->
+        <rosparam file="$(find ur_gazebo)/controller/joint_state_controller.yaml" command="load"/>
+        <node name="joint_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+                              output="screen" args="joint_state_controller" />
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+        <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+             args="-urdf -model robot1 -param robot_description -x 0 -y 1.00 -z 0.95"/>
+    </group>
+
+    <group ns="robot2">
+        <param name="robot_description"
+            command="$(find xacro)/xacro
+            $(find ur_description)/urdf/ur5withdouble.urdf.xacro ns:=robot2"/>
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+        <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+             args="-urdf -model robot2 -param robot_description -x 2.00 -y 0 -z 0.95"/>
+    </group>
+   <!-- <include file="$(find ur_gazebo)/launch/controller_utils.launch"/>
+
+    <rosparam file="$(find ur5hand_moveit_config)/config/fake_controllers.yaml" command="load"/>
+    <node name="arm_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn arm_controller" respawn="false" output="screen"/>-->
+
+</launch>

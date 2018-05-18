@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/devel
+
+Name: kinova_msgs
+Description: Description of kinova_msgs
+Version: 0.0.1
+Cflags: -I/home/cyr/catkin_ur/devel/include
+Libs: -L/home/cyr/catkin_ur/devel/lib 
+Requires: actionlib_msgs geometry_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: jaco_moveit
+Description: Description of jaco_moveit
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/cyr/catkin_ur/install/lib 
+Requires: 

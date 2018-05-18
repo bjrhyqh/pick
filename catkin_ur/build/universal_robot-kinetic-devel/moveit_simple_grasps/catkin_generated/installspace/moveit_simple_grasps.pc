@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: moveit_simple_grasps
+Description: Description of moveit_simple_grasps
+Version: 1.2.1
+Cflags: -I/home/cyr/catkin_ur/install/include
+Libs: -L/home/cyr/catkin_ur/install/lib -lmoveit_simple_grasps -lmoveit_simple_grasps_filter
+Requires: actionlib_msgs geometry_msgs moveit_msgs trajectory_msgs std_msgs message_runtime moveit_visual_tools

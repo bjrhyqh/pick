@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/install
+
+Name: bhand_description
+Description: Description of bhand_description
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/cyr/catkin_ur/install/lib 
+Requires: 

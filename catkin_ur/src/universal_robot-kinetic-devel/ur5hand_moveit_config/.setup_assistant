@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur_description
+    relative_path: urdf/ur5_with_hand.urdf.xacro
+  SRDF:
+    relative_path: config/ur5.srdf
+  CONFIG:
+    author_name: cyr
+    author_email: bjrhyqh@mail.ustc.edu.cn
+    generated_timestamp: 1512877626

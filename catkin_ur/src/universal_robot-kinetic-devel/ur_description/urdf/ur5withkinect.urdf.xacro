@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro"
+       name="ur5" >
+ <xacro:include filename="$(find ur_description)/urdf/common.xacro" />
+<xacro:include filename="$(find ur_description)/urdf/common.gazebo.xacro" />
+<xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro" />
+<xacro:include filename="$(find ur_description)/urdf/sensors/kinect2.urdf.xacro" />
+
+<xacro:ur5_robot prefix="" joint_limited="true"/>
+<link name="world" />
+<!--  <link name="base"/>
+  <link name="tool0"/>-->
+
+<joint name="world_joint" type="fixed">
+   <parent link="world" />
+   <child link = "base_link" />
+   <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+ </joint>
+
+<!-- end effector -->
+<xacro:include filename="$(find ur_description)/urdf/sensors/kinect2.urdf.xacro" />
+<xacro:kinect2_v0 name="head_mount" parent="ee_link" >
+  <origin xyz="-0.137376 0 0.091746" rpy="0 0 0" />
+</xacro:kinect2_v0>
+
+</robot>

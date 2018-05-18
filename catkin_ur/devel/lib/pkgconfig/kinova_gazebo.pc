@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/devel
+
+Name: kinova_gazebo
+Description: Description of kinova_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/cyr/catkin_ur/devel/lib 
+Requires: 

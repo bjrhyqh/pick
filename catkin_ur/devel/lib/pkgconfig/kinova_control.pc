@@ -1,0 +1,8 @@
+prefix=/home/cyr/catkin_ur/devel
+
+Name: kinova_control
+Description: Description of kinova_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/cyr/catkin_ur/devel/lib 
+Requires: 

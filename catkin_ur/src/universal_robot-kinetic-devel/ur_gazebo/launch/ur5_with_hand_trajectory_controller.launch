@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+   <rosparam file="$(find ur_gazebo)/controller/trajectory_control.yaml" command="load"/>
+
+  <node name="ur5_with_hand_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="ur5hand/" args="manipulator_controller gripper_controller"/>
+
+</launch>
